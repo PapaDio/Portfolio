@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #426669;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #423b89;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+h2,
+p {
+    color: #658ac1;
+    opacity: 0.8;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border: 1px solid white;
+    box-shadow: 5px 5px rgba(193, 222, 230, 0.623);
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.circle1 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+.circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    border-radius: 50%;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+}
+
+.link {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 2rem;
+}
+
+.contact {
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact h2 {
+    padding: 0rem 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+.projects {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem;
+}
+
+.card{
+    display: flex;
+    background: linear-gradient(to left top, rgba(255, 255,255,0.8), rgba(255, 255,255,0.5));
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+    padding: 2rem 1rem;
+    box-shadow: 6px 6px 20px rgba(124, 124, 124, 0.3);
+    justify-content: space-between;
+}
+
+/* .progress{
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    width: 100%;
+    height: 25%;
+    padding: 10px 0px;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+    background: rgb(236, 236, 236);
+    position: absolute;
+    border-radius: 1rem;
+} */
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    font-weight: bold;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #658ac1;
+    position: relative;
+}
+
+.user img {
+    width: 40%;
+    height: 80%;
+    border-radius: 30px;
+}
+
+.links img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.contact img {
+    width: 3rem;
+    height: 3rem;
+}
